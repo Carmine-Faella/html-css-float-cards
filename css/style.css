@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+#head{
+    text-align: center;
+}
+
+h1{
+    color:rgb(220,21,93);
+}
+
+.container{
+    width: calc(100%/3 - 20px);
+    height: 80px;
+    background-color:rgb(15,14,23);
+    float: left;
+    margin: 0px 20px 50px 0px;
+}
+
+p{
+    padding: 30px 0px 30px 0px;
+}
+
+.imgSection{
+    height: 80px;
+    width: 70px;
+    float: left;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+#img_1{
+    background-image: url(../img/male1.png);
+}
+
+#img_2{
+    background-image: url(../img/female1.png);
+}
+
+#img_3{
+    background-image: url(../img/male2.png);
+}
+
+#img_4{
+    background-image: url(../img/female2.png);
+}
+
+#img_5{
+    background-image: url(../img/male3.png);
+}
+
+#img_6{
+    background-image: url(../img/female3.png);
+}
+
+a{
+    color: lightblue;
+    font-size: 10px;
+}
+
+.cnt{
+    float: left;
+    margin-top: 5px;
+}
+
+.textSection{
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.name{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}    
+
