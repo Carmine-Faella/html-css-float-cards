@@ -9,30 +9,34 @@ body{
 }
 
 main{
-    width: 80%;
+    max-width: 1170px;
     margin: auto;
 }
 
 #head{
     text-align: center;
-    margin: 50px 0px 50px 0px
+    margin-top: 50px;
 }
 
 h1{
     color:rgb(220,21,93);
 }
 
-.container{
-    width: calc(100%/3 - 20px);
-    height: 80px;
-    background-color:rgb(15,14,23);
-    float: left;
-    margin: 0px 20px 50px 0px;
-}
-
 p{
     padding: 30px 0px 30px 0px;
 }
+
+
+.container{
+    width: calc(100% / 3 - 40px);
+    height: 80px;
+    background-color:rgb(15,14,23);
+    float: left;
+    margin: 50px 20px 20px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+
 
 .imgSection{
     height: 80px;
